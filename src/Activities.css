@@ -1,0 +1,44 @@
+.activities-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100vw; 
+    
+  }
+  .activities-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1200px; 
+  width: 100%;
+}
+  .activity-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .activity-item img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  
+  .activity-text {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  .activity-text input {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .activity-text button {
+    width: 100px;
+  }
+  
